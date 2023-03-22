@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Hind Siliguri SemiBold';
+    font-weight: 600;
+    font-style: normal;    
+    src: local('Hind Siliguri SemiBold'), local('HindSiliguri-SemiBold'),
+        url('../font/HindSiliguri-SemiBold.woff2') format('woff2'),
+        url('../font/HindSiliguri-SemiBold.woff') format('woff'),
+        url('../font/HindSiliguri-SemiBold.ttf') format('ttf'),
+        url('../font/HindSiliguri-SemiBold.eot') format('eot');
+}
+@font-face {
+    font-family: 'Hind Siliguri Light';
+    font-weight: 300;
+    font-style: normal;    
+    src: local('Hind Siliguri Light'), local('HindSiliguri-Light'),
+        url('../font/HindSiliguri-Light.woff2') format('woff2'),
+        url('../font/HindSiliguri-Light.woff') format('woff'),
+        url('../font/HindSiliguri-Light.ttf') format('ttf'),
+        url('../font/HindSiliguri-Light.eot') format('eot');
+}
+@font-face {
+    font-family: 'Hind Siliguri Regular';
+    font-weight: normal;
+    font-style: normal;    
+    src: local('Hind Siliguri Regular'), local('HindSiliguri-Regular'),
+        url('../font/HindSiliguri-Regular.woff2') format('woff2'),
+        url('../font/HindSiliguri-Regular.woff') format('woff'),
+        url('../font/HindSiliguri-Regular.ttf') format('ttf'),
+        url('../font/HindSiliguri-Regular.eot') format('eot');
+}
+@font-face {
+    font-family: 'Hind Siliguri Medium';
+    font-weight: 500;
+    font-style: normal;    
+    src: local('Hind Siliguri Medium'), local('HindSiliguri-Medium'),
+        url('../font/HindSiliguri-Medium.woff2') format('woff2'),
+        url('../font/HindSiliguri-Medium.woff') format('woff'),
+        url('../font/HindSiliguri-Medium.ttf') format('ttf'),
+        url('../font/HindSiliguri-Medium.eot') format('eot');
+}
