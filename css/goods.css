@@ -1,0 +1,59 @@
+.goods, .goods>div{
+    display: flex;
+}
+.goods{
+    padding: 132px 0px 160px 0px;
+}
+.goods__left-block__img-wrap, .goods__right-block__img-wrap{   
+    position: relative;
+    width: 262px;
+    height: 248px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.goods__right-block__img-wrap__basket-wrap, .goods__left-block__img-wrap__basket-wrap{
+    position: absolute;
+    left: 237px;
+    top: -19px;
+}
+.goods__left-block__description, .goods__right-block__description {
+    margin: 0 37px 0 30px;
+    width: 256px;
+    height: 186px;
+}
+.goods__left-block__description>h2, .goods__right-block__description>h2{        
+    font-family: 'Hind Siliguri SemiBold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 40px;
+    color: #030D15; 
+    padding-top: 30px;
+}
+.goods__left-block__description>p, .goods__right-block__description>p{
+    font-family: 'Hind Siliguri Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #030D15;
+    opacity: 0.6;    
+    padding-top: 9px;
+}
+.goods__left-block__price-wrap, .goods__right-block__price-wrap{
+    display: flex;
+    padding-top: 20px;
+}
+.goods__left-block__price-wrap__price:after, .goods__right-block__price-wrap__price:after{
+    content:"/";
+    font-family: 'Hind Siliguri Light';
+    line-height: 27px;
+    text-align: center;
+    color: #030D15;
+    opacity: 0.5;
+}
+.goods__left-block__stars-wrap, .goods__right-block__stars-wrap{
+    padding-top: 15px;
+}
+.goods__left-block__stars-wrap>img:hover, .goods__right-block__stars-wrap>img:hover{
+    border: 1px solid blue;
+}

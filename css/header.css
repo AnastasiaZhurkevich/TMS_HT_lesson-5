@@ -1,0 +1,33 @@
+header{
+    height: 90px;
+    display: flex;
+    align-items: center;
+}
+.header__logo{
+    margin-right: 177px;
+}
+.header__nav{
+    display: flex;
+    margin-right: 100px;
+}
+.header__nav>div{
+    display: flex;
+    align-items: center;
+    font-family: 'Hind Siliguri Medium';
+    font-size: 14px;
+    line-height: 23px;
+    margin-right: 40px;
+}
+.header__nav>div:not(:last-of-type):after{
+    content: url("../icon/arrow.svg");
+    display: block;
+    padding-left: 3px;
+    padding-bottom: 3px; 
+}
+.header__group{
+    display: flex;
+    align-items: center;
+}
+.header__group>div{
+    padding-right: 30px;
+}

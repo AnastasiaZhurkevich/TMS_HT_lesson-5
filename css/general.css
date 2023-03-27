@@ -1,0 +1,25 @@
+*{
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    padding: 0px;
+    margin: 0px;
+    box-sizing:border-box;
+}
+.container{
+    width: 1200px;
+    margin: 0px auto;
+}
+.price-text{
+    font-family: 'Hind Siliguri Medium';    
+    line-height: 27px;
+    text-align: center;
+    color: #030D15;    
+}
+.price-text_line-through{
+    font-family: 'Hind Siliguri Light';
+    line-height: 27px;
+    text-align: center;
+    text-decoration-line: line-through;
+    color: #030D15;
+    opacity: 0.5;
+}
