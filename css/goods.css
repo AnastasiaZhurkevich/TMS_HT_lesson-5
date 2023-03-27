@@ -10,8 +10,12 @@
     height: 248px;
     border: 1px solid rgba(0, 0, 0, 0.1);
 }
-.goods__right-block__img-wrap__basket-wrap, .goods__left-block__img-wrap__basket-wrap{
+.goods__right-block__img-wrap:after, .goods__left-block__img-wrap:after{
+    content: url("../icon/basket-in-circle.svg");
+    display: block;
     position: absolute;
+    width: 38px;
+    height: 38px;
     left: 237px;
     top: -19px;
 }
