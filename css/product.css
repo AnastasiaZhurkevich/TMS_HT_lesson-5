@@ -1,0 +1,74 @@
+.product{
+    display: flex;
+    position: relative;
+    height: 900px;    
+}
+.product__bgc{
+    background-color: #F4F9FC;    
+    position: absolute;
+    height: 591px;
+    width: 100vw; 
+    top: 255px;
+    left: calc((100vw - 1183px) / -2);
+}
+.product__girl{
+    width: 60%;
+    background-image: url(../img/girl.png), url(../img/circle.png);    
+    background-repeat: no-repeat no-repeat;
+    background-position: 3px -26px, 35px 144px;
+    transform: translateX(-55px);  
+}
+.product__info{
+    padding-top: 120px;
+    width: 457px;
+}
+.product__info>h5{    
+    font-family: 'Hind Siliguri Medium';
+    font-size: 14px;
+    line-height: 23px;
+    letter-spacing: 0.145em;
+    color: #C72535;
+    opacity: 0.6;
+}
+.product__info>h2{    
+    font-family: 'Hind Siliguri SemiBold';
+    font-size: 44px;
+    line-height: 71px;
+    color: #030D15;
+}
+.product__info>p{
+    position: relative;
+    font-family: 'Hind Siliguri Regular';    
+    font-size: 16px;
+    line-height: 24px;
+    color: #030D15;
+    opacity: 0.6;
+    z-index: 5;
+}
+.product__info>p:first-of-type{
+    padding-top: 115px;   
+}
+.product__info>p:last-of-type{
+    padding-top: 18px;   
+}
+.product__info__points{
+    padding: 40px 0px;
+    width: 375px;
+}
+.product__info__points>p{
+    position: relative;
+    display: flex;       
+    font-family: 'Hind Siliguri Medium';    
+    font-size: 14px;
+    line-height: 27px;
+    color: #030D15;
+    padding-left: 10px;
+    margin: 10px 0px;
+}
+.product__info__points>p::before{
+    content:url(../icon/check-sign.svg);
+    display: block;
+    width: 10px;
+    padding-right: 10px;
+    transform: translateX(-13px);
+}

@@ -1,0 +1,54 @@
+.tech{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px auto;    
+}
+.tech>div{
+    width: 557px;
+    height: 296px;    
+    background: linear-gradient(257.26deg, #008BF0 -13.2%, #D943C9 130.95%);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 75px 0px 0px 35px;
+}
+.dron>h5, .camera>h5 {   
+    width: 241px;
+    height: 27px;
+    font-family: 'Hind Siliguri Medium';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 27px;
+    color: #F4F9FC;
+    opacity: 0.6;
+    text-transform: uppercase;
+}
+.dron, .camera {
+    position: relative;
+}
+.dron:after{
+    content:url(../img/dron.png);
+    position: absolute;
+    left: 239px;
+    bottom: -24px;
+}
+.camera:after{
+    content:url(../img/camera.png);
+    position: absolute;
+    left: 264px;
+    bottom: 45px;
+}
+.dron>h2, .camera>h2 {   
+    font-family: 'Hind Siliguri SemiBold';
+    font-size: 31px;
+    line-height: 40px;
+    color: #F4F9FC;
+    width: 258px;
+}
+.dron>h6, .camera>h6 {
+    width: 76px;
+    height: 27px;
+    font-family: 'Hind Siliguri Medium';   
+    font-size: 14px;
+    line-height: 27px;
+    text-align: center;
+    color: #F4F9FC;
+}
