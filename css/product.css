@@ -12,7 +12,7 @@
     left: calc((100vw - 1183px) / -2);
 }
 .product__girl{
-    width: 60%;
+    width: 720px;
     background-image: url(../img/girl.png), url(../img/circle.png);    
     background-repeat: no-repeat no-repeat;
     background-position: 3px -26px, 35px 144px;
@@ -69,6 +69,6 @@
     content:url(../icon/check-sign.svg);
     display: block;
     width: 10px;
-    padding-right: 10px;
+    padding-top: 4px;
     transform: translateX(-13px);
 }
