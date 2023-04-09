@@ -1,14 +1,29 @@
-.goods, .goods>div{
-    display: flex;
-}
 .goods{
+    display: flex;
+    width: 100%;
     padding: 132px 0px 160px 0px;
+    height: 545px;
 }
-.goods__left-block__img-wrap, .goods__right-block__img-wrap{   
+.goods>div{
+    display: flex;
+    width: 50%;
+    height: 100%
+}
+.goods__left-block__img-wrap{
     position: relative;
-    width: 262px;
-    height: 248px;
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 43%;
+    height: 98%;
+   background-image: url("../img/first-good.png");
+    background-repeat: no-repeat;
+    background-size: contain; 
+}
+.goods__right-block__img-wrap{   
+    position: relative;
+    width: 43%;
+    height: 98%;
+   background-image: url("../img/second-good.png");
+    background-repeat: no-repeat;
+    background-size: contain; 
 }
 .goods__right-block__img-wrap:after, .goods__left-block__img-wrap:after{
     content: url("../icon/basket-in-circle.svg");
@@ -16,12 +31,12 @@
     position: absolute;
     width: 38px;
     height: 38px;
-    left: 237px;
-    top: -19px;
+    left: 87%;
+    top: -7%;
 }
 .goods__left-block__description, .goods__right-block__description {
     margin: 0 37px 0 30px;
-    width: 256px;
+    width: 42%;
     height: 186px;
 }
 .goods__left-block__description>h2, .goods__right-block__description>h2{        

@@ -1,8 +1,12 @@
 .front-content__wrap{
+    width: 100%;
+    height: 571px;
     display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
 .front-content__wrap__left-block{
-    width: 550px;
+    width: 45%;
     padding-top: 129px;
 }
 .front-content__wrap__left-block p{   
@@ -67,5 +71,11 @@
     opacity: 0.5;
 }
 .front-content__wrap__right-block{
+    background-image: url("../img/front-img.png");
+    background-repeat: no-repeat;
+    background-size: contain; 
+    background-position:center;
     padding-top: 54px;
+    width: 50%;
+    height: 98%;
 }

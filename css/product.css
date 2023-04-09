@@ -1,18 +1,11 @@
 .product{
     display: flex;
     position: relative;
-    height: 900px;    
-}
-.product__bgc{
-    background-color: #F4F9FC;    
-    position: absolute;
-    height: 591px;
-    width: 100vw; 
-    top: 255px;
-    left: calc((100vw - 1183px) / -2);
+    height: 900px;  
+    width: 100%;  
 }
 .product__girl{
-    width: 720px;
+    width: 59%;
     background-image: url(../img/girl.png), url(../img/circle.png);    
     background-repeat: no-repeat no-repeat;
     background-position: 3px -26px, 35px 144px;
@@ -20,7 +13,7 @@
 }
 .product__info{
     padding-top: 120px;
-    width: 457px;
+    width: 41%;
 }
 .product__info>h5{    
     font-family: 'Hind Siliguri Medium';
@@ -53,7 +46,7 @@
 }
 .product__info__points{
     padding: 40px 0px;
-    width: 375px;
+    width: 80%;
 }
 .product__info__points>p{
     position: relative;

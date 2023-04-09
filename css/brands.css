@@ -1,9 +1,10 @@
 .brands{
-    display: flex;
-    padding: 0 118px;
+    display: flex;    
+    padding: 0 6%;
+    width: 100%;
     justify-content: space-between;
     align-items: center;    
-    height: 237px;
+    height: 23%;
     background: #FFFFFF;
     box-shadow: 0px 100px 80px rgba(174, 174, 174, 0.08),
         0px 43.751px 36.4414px rgba(174, 174, 174, 0.0575083),

@@ -4,15 +4,17 @@
     margin: 40px auto;    
 }
 .tech>div{
-    width: 557px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 45%;
     height: 296px;    
     background: linear-gradient(257.26deg, #008BF0 -13.2%, #D943C9 130.95%);
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 75px 0px 0px 35px;
 }
 .dron>h5, .camera>h5 {   
-    width: 241px;
-    height: 27px;
+    width: 55%;    
     font-family: 'Hind Siliguri Medium';
     font-style: normal;
     font-size: 16px;
@@ -27,21 +29,21 @@
 .dron:after{
     content:url(../img/dron.png);
     position: absolute;
-    left: 239px;
-    bottom: -24px;
+    left: 43%;
+    bottom: -10%;
 }
 .camera:after{
     content:url(../img/camera.png);
     position: absolute;
-    left: 264px;
-    bottom: 45px;
+    left: 50%;
+    bottom: 17%;
 }
 .dron>h2, .camera>h2 {   
     font-family: 'Hind Siliguri SemiBold';
     font-size: 31px;
     line-height: 40px;
     color: #F4F9FC;
-    width: 258px;
+    width: 50%;
 }
 .dron>h6, .camera>h6 {
     width: 76px;
